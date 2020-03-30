@@ -2,7 +2,7 @@ var ines = document.createElement("img");
 ines.setAttribute('src', "images/ines.png");
 ines.setAttribute('onmouseover', "mouseOverInes(this)");
 ines.setAttribute('onmouseout', "mouseOutInes(this)");
-ines.setAttribute('onclick', "onClick()");
+ines.setAttribute('ondblclick', "doubleClick()");
 ines.setAttribute('class', "draggable");
 ines.setAttribute('id', "ines");
 ines.setAttribute('style', "width: 30%; position: absolute; bottom: 0; right:10px");
@@ -19,7 +19,7 @@ function mouseOverInes(img){
 function mouseOutInes(img){
 	img.src = "images/ines.png"
 }
-function onClick(){
+function doubleClick(){
 	window.location.href = "index.html";
 }
 
