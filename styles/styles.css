@@ -19,16 +19,16 @@ body{
 	text-align:center;
 }
 
-@media screen and (min-width: 800px) {
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px)  {
   .grid-container{
 	grid-gap: 20px;
 	padding: 20px;
   }
   .grid-item{
-  	min-width:60%;
+  	min-width:50%;
   }
   body{
-  	font-size: 20px;
+  	font-size: 30px;
   }
 }
 
