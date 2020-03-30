@@ -1,7 +1,8 @@
 body{
 	font-family: 'Overpass Mono', monospace;
-	font-size: 10px;
 	color: black;
+	text-align:center;
+	font-size: 10px;
 }
 
 .grid-container{
@@ -43,4 +44,7 @@ body{
 	width:50%;
 }
 
+#welcome{
+	padding:100px;
+}
 
