@@ -27,6 +27,9 @@ body{
   .grid-item{
   	min-width:60%;
   }
+  body{
+  	font-size: 20px;
+  }
 }
 
 .shop-item{
